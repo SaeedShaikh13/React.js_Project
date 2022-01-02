@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Provider} from "react-redux";
+import {confgiStore} from "./component/MovieFuture/MoviesC/confgiStore"
 
+
+const localStore = confgiStore()
 ReactDOM.render(
   <React.StrictMode>
+    <Provider store={localStore}>
     <App />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

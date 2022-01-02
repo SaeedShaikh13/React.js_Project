@@ -1,0 +1,46 @@
+
+
+.card-parent{
+     display: flex; 
+     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+.image{
+   
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
+    transition: 0.4s;
+    justify-items: center;
+    
+}
+
+    
+
+ .image:hover{
+    box-shadow:  lightblue 5px 5px 6px , orange -5px -5px 6px;
+    zoom: 25px;
+
+} 
+
+.card{
+    
+    background-color: coral;
+    margin: 20px;
+    width: 300px;
+    border: 20px;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: orange 5px 5px 6px , black -5px -5px -6px;
+    transition: 0.5s;
+}
+
+/* .card:hover{
+    display: none;
+} */
+
+
+
