@@ -5,6 +5,7 @@
      flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
+    background-color: black;
 }
 .image{
    
@@ -36,6 +37,10 @@
     border-radius: 15px;
     box-shadow: orange 5px 5px 6px , black -5px -5px -6px;
     transition: 0.5s;
+}
+.home{
+    text-decoration: none;
+    font-size: 20px;
 }
 
 /* .card:hover{

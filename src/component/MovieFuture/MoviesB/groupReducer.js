@@ -12,7 +12,7 @@ export const groupReducer = (
      if(action.type ==="Add-Cart") {
          return{...state,cart:[{...action.data,key:state.cart.length},...state.cart],};  
      }  
-     if (action.type ==="Remove-Product") {
+     if (action.type ==="Remove-Product") { 
         const filltered = state.cart.filter((item)=> item !== action.data);                
         return{ ...state, cart:filltered};
      }

@@ -14,6 +14,7 @@ const Landing = () => {
                  <Routes>
                      <Route path ="/" element={<ProductParent search= {search}/>}   />
                      <Route path ="/details" element={<ProductDetails/>}   />
+                     <Route path ="/cart" element={<ProductCart/>}   />
                  </Routes>
                  </BrowserRouter>
             

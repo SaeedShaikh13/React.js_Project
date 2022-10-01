@@ -5,7 +5,8 @@ import './Redux.css'
 
 const ProductDetails = () => {
     const dispatch = useDispatch();
-   const selectedItem = useSelector((state)=> state.groupReducer.selectedproduct)   // call back funcation to use selector
+   const selectedItem = useSelector((state)=> state.groupReducer.selectedproduct[0])
+   console.log(selectedItem)   // call back funcation to use selector
     return (
         <div className="card-parent">
             <div className="card">

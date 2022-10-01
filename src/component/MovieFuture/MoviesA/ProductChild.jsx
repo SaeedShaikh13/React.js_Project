@@ -14,8 +14,9 @@ const ProductChild = ({item}) => {
             <h4>Year: {item.Year}</h4>
             <h4>Rating: {item.Rating}</h4>
             <Link to= "/details">
-            <button onClick={()=>dispatch ({type: "Selected-Product" , data:item})}>Details</button>    
+            <button onClick={()=>dispatch ({type: "Selected-Product" , data:item})}>Details</button> 
             </Link>
+            <button style={{margin:"10px"}} onClick = {()=> dispatch({type: "Add-Cart" , data:item})}>ADD To Cart</button>
             </div>
          
     );
